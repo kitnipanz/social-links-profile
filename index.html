@@ -43,8 +43,8 @@
       }
       .container {
         background: hsl(0, 0%, 12%);
-        padding: 24px 16px;
-        padding-bottom: 14px;
+        padding: 40px;
+        padding-bottom: 24px;
         border-radius: 8px;
         max-width: 320px;
       }
@@ -52,20 +52,21 @@
         text-align: center;
       }
 
-      .profile .name {
-        font-weight: 400;
-        font-size: 21px;
-        margin-bottom: 0px;
-      }
       .profile .avatar {
         border-radius: 50%;
-        width: 64px;
+        width: 88px;
         margin: 0 auto;
         display: block;
       }
+
+      .profile .name {
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 0px;
+      }
       .profile .location {
-        margin-top: 8px;
-        font-size: 12px;
+        margin-top: 4px;
+        font-size: 14px;
         font-weight: 500;
         color: hsl(75, 94%, 57%);
       }
@@ -74,17 +75,18 @@
         margin-top: 24px;
       }
       .social {
+        margin-top: 24px;
         list-style-type: none;
         padding: 0;
-        margin: 16px;
+        /* margin: 16px; */
       }
       .social li {
         border-radius: 8px;
         min-width: 280px;
         background: hsl(0, 0%, 20%);
         text-align: center;
-        margin-bottom: 12px;
-        padding: 10px 0px;
+        margin-bottom: 16px;
+        padding: 16px 0px;
         cursor: pointer;
         font-weight: 500;
       }
@@ -102,7 +104,7 @@
           src="./assets/images/avatar-jessica.jpeg"
           alt="Jessica Randall"
         />
-        <h3 class="name">Jessica Randall</h3>
+        <div class="name">Jessica Randall</div>
         <p class="location">London, United Kingdom</p>
         <p class="quote">"Front-end developer and avid reader."</p>
 
