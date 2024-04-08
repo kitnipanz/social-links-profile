@@ -46,8 +46,9 @@
         padding: 40px;
         padding-bottom: 24px;
         border-radius: 8px;
-        max-width: 320px;
+        width: 304px;
       }
+
       .profile {
         text-align: center;
       }
@@ -62,7 +63,7 @@
       .profile .name {
         font-weight: 500;
         font-size: 24px;
-        margin-bottom: 0px;
+        margin-top: 24px;
       }
       .profile .location {
         margin-top: 4px;
@@ -78,11 +79,10 @@
         margin-top: 24px;
         list-style-type: none;
         padding: 0;
-        /* margin: 16px; */
       }
       .social li {
         border-radius: 8px;
-        min-width: 280px;
+        width: 100%;
         background: hsl(0, 0%, 20%);
         text-align: center;
         margin-bottom: 16px;
@@ -93,6 +93,13 @@
       .container .social li:hover {
         color: hsl(0, 0%, 20%);
         background: hsl(75, 94%, 57%);
+      }
+
+      @media screen and (max-width: 1440px) {
+        .container {
+          padding: 24px;
+          width: 279px;
+        }
       }
     </style>
   </head>
